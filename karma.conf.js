@@ -16,6 +16,12 @@ module.exports = function(config) {
       platform: 'linux',
       version: '45'
     },
+    sl_opera: {
+      base: 'SauceLabs',
+      browserName: 'opera',
+      platform: 'linux',
+      version: '12'
+    },
     sl_osx_safari: {
       base: 'SauceLabs',
       browserName: 'safari',
@@ -38,7 +44,7 @@ module.exports = function(config) {
 
   config.set({
     sauceLabs: {
-        testName: 'Math.random().toString(36)'
+      testName: 'Math.random().toString(36)'
     },
     singleRun: true,
     customLaunchers: customLaunchers,
