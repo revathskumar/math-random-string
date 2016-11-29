@@ -1,6 +1,6 @@
 ## Math.random().toString(36)
 
-`Math.random().toStrin(36)` will produce result of different length in different browsers.
+`Math.random().toString(36)` will produce result of different length in different browsers.
 
 In `Firefox` it result a string of length `<15` 
 In `Chrome` it results in a string of length `24`.
